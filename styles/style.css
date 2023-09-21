@@ -1,1 +1,48 @@
-/* место для вашего кода */
+html {
+    scroll-behavior: smooth;
+    }
+    .header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 109px;
+    width: 1340px;
+    margin: 92px auto 92px;
+    font-size: 18px;
+    font-weight: 400px;
+    }
+    
+    .header-links-list {
+    display:flex;
+     justify-content: space-between;
+     margin-right:209px;
+     width:388px;
+    }
+    .header-links-list-item {
+    list-style: circle;
+    font-size:18px;
+    font-weight: 400;
+    }
+    
+    .header__links-list-item_no-bullit {
+    list-style:none;
+    }
+    .link-active {
+        text-decoration: none;
+    }
+    .address { 
+        font-style:normal;
+        line-height: 24.3px;
+        text-underline-position: under;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .header-address {
+       margin-top:5;
+    }
+    .header-logo-image {
+        width: 148px;
+        height:105px;
+        margin-right:355px;
+        margin-bottom:4px;
+    }
