@@ -46,3 +46,106 @@ html {
         margin-right:355px;
         margin-bottom:4px;
     }
+
+    .cover {
+        width:1440px;
+        height:757px;
+        position: relative;
+        margin:auto;
+        box-sizing: border-box;
+       }
+       .cover-image {
+        opacity: 0.4;
+        width: 1440px;
+        height:755px;
+        margin-bottom:-15px;
+       }
+       .overlay{
+       background: #000;
+       z-index: -1;
+       height:755px;
+       }
+       
+       .cover-title {
+       display:grid;
+       grid-template-rows: 115px 100px 100px;
+       gap:10px;
+       color: white;
+       position: absolute;
+       z-index: 1;
+       font-size: 100px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 115%;
+       letter-spacing: 30px;
+       text-transform: uppercase;
+       width: 1340px;
+       margin-left:50px;
+       margin-top:165px;
+       }
+       
+       .letter-spacing-extended {
+           letter-spacing: 60px;
+       }
+       
+       .aligned-text {
+           height: 115px;
+       }
+       
+       .aligned-text_center {
+         text-align: center;
+         width:1280px;
+         height: 100px;
+         margin-left:30px;
+       }
+       
+       .aligned-text_right {
+           text-align: right;
+           width:1340px;
+           height: 100px;
+           margin-left: 30px;
+           margin-top:10px;
+       }
+       
+       .cover__description {
+           position: absolute;
+           z-index: 1;
+           color:white;
+           text-align: center;
+        font-size: 22px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 28px;
+         text-transform: uppercase;
+         margin-top:655px;
+         margin-bottom: 50px;
+         display:flex;
+         justify-content: end;
+         align-items: center;
+         height: 52px;
+         width:1440px;
+       }
+       
+       .cover__description-text{
+           text-align: center;
+           width:635px;
+           height:28px;
+           margin-right:78px;
+           word-spacing:17px;
+       }
+       
+       .bet-button {
+           display:inline-block;
+           width:257px;
+           height:52px;
+           margin-right:50px;
+           color:white;
+           font-size: 22px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: normal;
+           text-transform: uppercase;
+           background-color: transparent;
+           font-family: Raleway;
+           border:solid 1px; 
+       }
