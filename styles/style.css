@@ -149,7 +149,7 @@ html {
            font-family: Raleway;
            border:solid 1px; 
        }
-       
+
 
        .lots {
         box-sizing: border-box;
@@ -229,3 +229,55 @@ html {
      .card-link {
          text-decoration: none;
      }
+
+     .about {
+        display:grid;
+        grid-template-columns:430px 885px;
+        grid-template-rows: 240px 388px;
+        gap:25px;
+        width:1340px;
+        height:487px;
+        margin:auto;
+        margin-top:181px;
+      
+      }
+      
+      .about-logo {
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          height: 240px;
+          width:240px;
+          border-radius:240px;
+          background-color: #000;
+          margin-left:94px;   
+      }
+      .about-logo-image {
+          height:114px;
+          width:148px;
+      }
+      .about-column {
+      display:grid;
+      grid-template-rows:47px 96px 119px;
+      row-gap:25px;
+      width:884px;
+      height: 387px;
+      margin-top:100px;
+      }
+      .about-title {
+      grid-column-start:1;
+      grid-column-end:2;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      }
+      .about-text {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top:75px;
+      line-height: 23.48px;
+      }
