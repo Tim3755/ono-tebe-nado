@@ -164,7 +164,6 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  text-decoration: none;
 }
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
