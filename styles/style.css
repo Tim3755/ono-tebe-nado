@@ -40,6 +40,7 @@
   text-underline-position: under;
   font-size: 18px;
   font-weight: 400;
+  width:240px;
 }
 .cover {
   position: relative;
